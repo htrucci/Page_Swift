@@ -14,6 +14,10 @@
 		0DABBBB11EFEA8A3003138FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DABBBAF1EFEA8A3003138FF /* LaunchScreen.storyboard */; };
 		0DABBBBC1EFEA8A4003138FF /* Page_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DABBBBB1EFEA8A4003138FF /* Page_SwiftTests.swift */; };
 		0DABBBC71EFEA8A4003138FF /* Page_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DABBBC61EFEA8A4003138FF /* Page_SwiftUITests.swift */; };
+		0DABBBD61EFEA9AF003138FF /* lamp_off.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DABBBD41EFEA9AF003138FF /* lamp_off.png */; };
+		0DABBBD71EFEA9AF003138FF /* lamp_on.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DABBBD51EFEA9AF003138FF /* lamp_on.png */; };
+		0DABBBD91EFEA9D3003138FF /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DABBBD81EFEA9D3003138FF /* ImageViewController.swift */; };
+		0DABBBDB1EFEAB0D003138FF /* DateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DABBBDA1EFEAB0D003138FF /* DateViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		0DABBBC21EFEA8A4003138FF /* Page_SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Page_SwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DABBBC61EFEA8A4003138FF /* Page_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page_SwiftUITests.swift; sourceTree = "<group>"; };
 		0DABBBC81EFEA8A4003138FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DABBBD41EFEA9AF003138FF /* lamp_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lamp_off.png; sourceTree = "<group>"; };
+		0DABBBD51EFEA9AF003138FF /* lamp_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lamp_on.png; sourceTree = "<group>"; };
+		0DABBBD81EFEA9D3003138FF /* ImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		0DABBBDA1EFEAB0D003138FF /* DateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +105,12 @@
 		0DABBBA51EFEA8A3003138FF /* Page_Swift */ = {
 			isa = PBXGroup;
 			children = (
+				0DABBBD81EFEA9D3003138FF /* ImageViewController.swift */,
+				0DABBBD41EFEA9AF003138FF /* lamp_off.png */,
+				0DABBBD51EFEA9AF003138FF /* lamp_on.png */,
 				0DABBBA61EFEA8A3003138FF /* AppDelegate.swift */,
 				0DABBBA81EFEA8A3003138FF /* ViewController.swift */,
+				0DABBBDA1EFEAB0D003138FF /* DateViewController.swift */,
 				0DABBBAA1EFEA8A3003138FF /* Main.storyboard */,
 				0DABBBAD1EFEA8A3003138FF /* Assets.xcassets */,
 				0DABBBAF1EFEA8A3003138FF /* LaunchScreen.storyboard */,
@@ -237,7 +249,9 @@
 			files = (
 				0DABBBB11EFEA8A3003138FF /* LaunchScreen.storyboard in Resources */,
 				0DABBBAE1EFEA8A3003138FF /* Assets.xcassets in Resources */,
+				0DABBBD71EFEA9AF003138FF /* lamp_on.png in Resources */,
 				0DABBBAC1EFEA8A3003138FF /* Main.storyboard in Resources */,
+				0DABBBD61EFEA9AF003138FF /* lamp_off.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,6 +276,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DABBBDB1EFEAB0D003138FF /* DateViewController.swift in Sources */,
+				0DABBBD91EFEA9D3003138FF /* ImageViewController.swift in Sources */,
 				0DABBBA91EFEA8A3003138FF /* ViewController.swift in Sources */,
 				0DABBBA71EFEA8A3003138FF /* AppDelegate.swift in Sources */,
 			);
