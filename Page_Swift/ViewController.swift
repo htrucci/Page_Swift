@@ -19,7 +19,13 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    @IBAction func btnMoveImageView(_ sender: UIButton) {
+        tabBarController?.selectedIndex = 1
+    }
 
+    @IBAction func btnMoveDatePickerView(_ sender: UIButton) {
+        tabBarController?.selectedIndex = 2
+    }
 
 }
 
